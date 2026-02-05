@@ -1,0 +1,30 @@
+
+
+.res{
+  color:white;
+  background-color: black;
+  font-size: 100px;
+}
+.inc{
+    color: white;
+    background-color: green;
+    font-size: 100px;
+}
+.dec{
+    color: white;
+    background-color: red;
+    font-size: 100px;
+}
+
+.head{
+    text-align: center;
+    font-size: 150px;
+}
+.container{
+    display: flex;
+    gap:10px;
+    justify-content: space-evenly;
+}
+*{
+    background-color: #fcba03;
+}
