@@ -34,10 +34,10 @@ class App extends React.Component {
         <button onClick={()=>this.change()}>changing state messages/</button>*/}
         <h1 className="head">Count:{this.state.num}</h1>
         <div className="container">
-          <button className="inc" onClick={() => this.increment()}>Increment</button>
+          <button id="inc" className="bt" onClick={() => this.increment()}>Increment</button>
 
-          <button className="dec" onClick={() => this.decrement()}>Decrement</button>
-          <button className="res" onClick={() => this.reset()}>Reset</button>
+          <button id="dec" className="bt" onClick={() => this.decrement()}>Decrement</button>
+          <button id="res" className="bt" onClick={() => this.reset()}>Reset</button>
 
         </div>
 
