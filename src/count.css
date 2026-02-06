@@ -1,18 +1,18 @@
 
 
-#res{
+.res{
   background-color: black;
 }
-#inc{
+.inc{
     background-color: green;
 }
-#dec{
+.dec{
     background-color: red;
 }
 .bt{
     padding: 50px;
     color: white;
-    font-size: 70px;
+    font-size: 50px;
     border-radius: 50px;
     margin: 10px;
 }
